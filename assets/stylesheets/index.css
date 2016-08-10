@@ -6,8 +6,8 @@ body, ul, li {
 }
 
 li {
+  color: #666666;
   list-style: none;
-  color: blue;
 }
 
 /*Navbar*/

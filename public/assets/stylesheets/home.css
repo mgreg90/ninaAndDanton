@@ -9,7 +9,28 @@ li {
   list-style: none;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 /*Navbar*/
+
+div.navbar {
+  position: fixed;
+  width: 100vw;
+  overflow: hidden;
+}
 
 ul.horiz {
   display: flex;
@@ -24,6 +45,7 @@ div.navbar ul.horiz li {
 
 div.navbar ul.horiz li:hover {
   background: rgba(0, 0, 0, .05);
+  font-weight: bold;
 }
 
 /*Index Body*/
