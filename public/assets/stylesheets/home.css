@@ -46,11 +46,10 @@ div.navbar ul.horiz li {
 }
 
 div.navbar ul.horiz li:hover {
-  background: rgba(0, 0, 0, .05);
   font-weight: bold;
 }
 
-/*Index Body*/
+/*Landing Body*/
 
 div.container {
   height: 100vh;
@@ -60,6 +59,10 @@ div.container {
   background-position: bottom;
   background-repeat: no-repeat;
   text-align: center;
+}
+
+div.landing-body {
+  margin-top: 3em;
 }
 
 h1 {
@@ -72,6 +75,15 @@ h1 {
 
 h3 {
   font-family: "Lato";
-  font-size: 20pt;
+  font-size: 32pt;
   font-weight: lighter;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: "Lato";
+  font-size: 16pt;
+  font-weight: lighter;
+  margin-top: 0.5em;
 }

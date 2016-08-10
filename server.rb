@@ -1,5 +1,6 @@
 require 'sinatra'
+require 'date'
 
 get '/' do
-  redirect '/views/home.html'
+  erb :home
 end
