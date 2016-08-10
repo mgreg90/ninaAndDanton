@@ -1,5 +1,5 @@
 function ready() {
-  alert("working");
+  // alert("working");
 };
 
 $(document).on('ready', ready());
