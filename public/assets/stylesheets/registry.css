@@ -1,0 +1,23 @@
+div#registry-body {
+  width: 80%;
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+div.registry-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.registry-content:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+div.registry-content img {
+  max-width: 85%;
+  max-height: 100%;
+}
