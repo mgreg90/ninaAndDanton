@@ -7,11 +7,11 @@ function ready() {
   $('h2').hide();
 
   // Show stuff
-  $('h2').show('fade', 1500, function() {
-    $('div.body-container').show('fade', 1500, function() {
-      $('div#ceremony-image').show('fade', 1500);
-      $('div#ceremony-text').show('fade', 1500);
-      $('div.vert-separator').show('fade', 1500);
+  $('h2').show('fade', 1200, function() {
+    $('div.body-container').show('fade', 1200, function() {
+      $('div#ceremony-image').show('fade', 1200);
+      $('div#ceremony-text').show('fade', 1200);
+      $('div.vert-separator').show('fade', 1200);
     });
   });
 };
