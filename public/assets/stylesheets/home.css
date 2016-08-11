@@ -73,6 +73,14 @@ h1 {
   font-size: 70pt;
 }
 
+h2 {
+  margin-top: 1.3em;
+  margin-bottom: 0;
+  font-weight: lighter;
+  font-family: "Lato";
+  font-size: 50pt;
+}
+
 h3 {
   font-family: "Lato";
   font-size: 32pt;
