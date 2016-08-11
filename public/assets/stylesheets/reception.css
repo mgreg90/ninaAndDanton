@@ -1,0 +1,20 @@
+div#reception-image {
+  width: 40%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div#reception-text {
+  width: 40%;
+  margin: 5%;
+}
+
+div#reception-image img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}

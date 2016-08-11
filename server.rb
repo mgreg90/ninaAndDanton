@@ -10,11 +10,11 @@ get '/ceremony' do
 end
 
 get '/reception' do
-  erb :ceremony
+  erb :reception
 end
 
 get '/accomodations' do
-  erb :ceremony
+  erb :accomodations
 end
 
 get '/wedding_party' do
