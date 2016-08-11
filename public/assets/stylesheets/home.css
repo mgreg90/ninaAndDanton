@@ -26,7 +26,7 @@ li a:visited {
 
 /*Navbar*/
 
-div.navbar {
+div.mg-navbar {
   position: fixed;
   width: 100vw;
   overflow: hidden;
@@ -40,18 +40,18 @@ ul.horiz {
   justify-content: center;
 }
 
-div.navbar ul.horiz li {
+div.mg-navbar ul.horiz li {
   padding: 1em 1em;
   font-family: "Lato"
 }
 
-div.navbar ul.horiz li:hover {
+div.mg-navbar ul.horiz li:hover {
   font-weight: bold;
 }
 
 /*Landing Body*/
 
-div.container {
+div.mg-container {
   height: 100vh;
   overflow: hidden;
   background-image: url("../images/white-flower-background.jpg");

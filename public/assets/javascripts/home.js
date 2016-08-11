@@ -28,4 +28,4 @@ function ready() {
   // alert("working");
 };
 
-$(document).on('ready', ready());
+$(document).on('ready load', ready());
