@@ -1,5 +1,5 @@
 div#registry-body {
-  width: 80%;
+  width: 100%;
   margin: 5%;
   display: flex;
   justify-content: space-around;
@@ -11,6 +11,7 @@ div.registry-content {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 
 div.registry-content:hover {
