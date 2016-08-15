@@ -25,13 +25,18 @@ div#wedding-party-body {
 
 h4.wedding-party-title {
   margin: 0;
+  align-self: flex-start;
+}
+
+p {
+  font-family: "Lato";
 }
 
 div.wedding-party-carousel-content {
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
 }
 
@@ -39,13 +44,17 @@ div.wedding-party-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  width: 35%;
+  padding: 0 0 0 3%;
+  margin: 8% 5% 8% 0;
+  background-color: rgba(255, 255, 255, .7)
 }
 
 div.wedding-party-text p {
-  margin-right: 15%;
+  margin-right: 5%;
   text-align: left;
   line-height: 1.2em;
+  font-size: 10pt;
 }
 
 div.wedding-party-image-container {
@@ -53,6 +62,7 @@ div.wedding-party-image-container {
   flex-direction: column;
   justify-content: center;
   width: 40%;
+  margin-right: 5px;
 }
 
 div.wedding-party-image {
@@ -61,7 +71,6 @@ div.wedding-party-image {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  margin-left: 15%;
 }
 
 div.item {
@@ -75,7 +84,74 @@ div#image-carousel, div.carousel.slide {
 div.carousel-inner {
   height: 100%;
 }
+div.vert-separator {
+  margin: 5% 5px;
+}
+
+ol.carousel-indicators {
+  bottom: 0;
+}
 
 div#wed-1 {
-  background-image: url('http://placehold.it/350x350');
+  background-image: url('/assets/images/mary-crit-smith.jpg');
+}
+
+div#wed-2 {
+  background-image: url('/assets/images/kate-fontneau.jpg');
+}
+
+div#wed-3 {
+  background-image: url('/assets/images/kirsti-roehm.jpg');
+}
+
+div#wed-4 {
+  background-image: url('/assets/images/katy-finney.png');
+}
+
+div#wed-5 {
+  background-image: url('/assets/images/jocelyn-fernandes.jpg');
+}
+
+div#wed-6 {
+  background-image: url('/assets/images/katie-brattebo.jpg');
+}
+
+div#wed-7 {
+  background-image: url('/assets/images/chelsea-nelson.png');
+}
+
+div#wed-8 {
+  background-image: url('/assets/images/kimberley-wistedt.jpg');
+}
+
+div#wed-9 {
+  background-image: url('/assets/images/chris-kelly.png');
+}
+
+div#wed-10 {
+  background-image: url('/assets/images/addison-nelson.jpg');
+}
+
+div#wed-11 {
+  background-image: url('/assets/images/brian-ohara.jpg');
+}
+
+div#wed-12 {
+  background-image: url('/assets/images/chris-thompson.jpg');
+}
+
+div#wed-13 {
+  background-image: url('/assets/images/frank-fontneau.jpg');
+}
+
+div#wed-14 {
+  background-image: url('/assets/images/josh-clark.jpg');
+}
+
+div#wed-15 {
+  background-image: url('/assets/images/trent-williams.jpg');
+}
+
+div#wed-16 {
+  background-image: url('/assets/images/vince-galluzzo.jpg');
 }
