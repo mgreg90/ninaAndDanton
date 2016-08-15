@@ -18,3 +18,64 @@ div#wedding-party-image img {
   width: auto;
   height: auto;
 }
+
+div#wedding-party-body {
+  width: 100%;
+}
+
+h4.wedding-party-title {
+  margin: 0;
+}
+
+div.wedding-party-carousel-content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+div.wedding-party-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+div.wedding-party-text p {
+  margin-right: 15%;
+  text-align: left;
+  line-height: 1.2em;
+}
+
+div.wedding-party-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+div.wedding-party-image {
+  background-image: url('http://placehold.it/350x350');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin-left: 15%;
+}
+
+div.item {
+  height: 100%;
+}
+
+div#image-carousel, div.carousel.slide {
+  height: 100%;
+}
+
+div.carousel-inner {
+  height: 100%;
+}
+
+div#wed-1 {
+  background-image: url('http://placehold.it/350x350');
+}
