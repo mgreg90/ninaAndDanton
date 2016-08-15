@@ -18,3 +18,7 @@ div#reception-image img {
   width: auto;
   height: auto;
 }
+
+p {
+  font-family: "Lato";
+}

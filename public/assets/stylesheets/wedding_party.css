@@ -3,6 +3,11 @@ h4.carousel-link {
   font-size: 14pt;
   margin-top: 10%;
   margin-bottom: 0;
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
 }
 
 h4.carousel-link:hover {

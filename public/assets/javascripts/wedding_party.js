@@ -14,6 +14,18 @@ function ready() {
       $('ol.carousel-indicators').show('fade', 1200);
     });
   });
+
+  // Carousel Links
+  $('ul.wedding-party-list > li').click(function() {
+    var slide = $(this).data('slide');
+    $('.carousel').carousel(slide);
+  });
+
+  $('h4.carousel-link').click(function() {
+    var slide = $(this).data('slide');
+    $('.carousel').carousel(slide);
+  });
+
 };
 
 $(document).on('ready load', ready());

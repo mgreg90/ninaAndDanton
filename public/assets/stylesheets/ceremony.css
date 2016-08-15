@@ -14,3 +14,7 @@ div#ceremony-text {
 div#ceremony-image img {
   width: 100%;
 }
+
+p {
+  font-family: "Lato";
+}

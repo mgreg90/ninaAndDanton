@@ -18,3 +18,15 @@ div#accomodations-image img {
   width: auto;
   height: auto;
 }
+
+p {
+  font-family: "Lato";
+}
+
+a#book-reservation {
+  font-weight: bold;
+}
+
+a#book-reservation:hover {
+  text-decoration: underline;
+}

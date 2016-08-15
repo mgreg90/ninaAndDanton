@@ -10,3 +10,7 @@ div#about-us-text {
   width: 40%;
   margin: 5%;
 }
+
+p {
+  font-family: "Lato";
+}
