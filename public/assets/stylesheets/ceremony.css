@@ -6,15 +6,23 @@ div#ceremony-image {
   flex-direction: column;
 }
 
-div#ceremony-text {
+#ceremony-text {
   width: 40%;
   margin: 5%;
 }
 
-div#ceremony-image img {
+#ceremony-image img {
   width: 100%;
 }
 
 p {
   font-family: "Lato";
+}
+
+a.link {
+  font-weight: bold;
+}
+
+a.link:hover {
+  text-decoration: underline;
 }
