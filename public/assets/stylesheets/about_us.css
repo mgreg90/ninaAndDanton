@@ -14,3 +14,19 @@ div#about-us-text {
 p {
   font-family: "Lato";
 }
+
+div.item-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 450px;
+}
+
+img {
+  max-height: 400px;
+  max-width: 450px;
+}
+
+.img-container {
+}
