@@ -22,3 +22,11 @@ div#reception-image img {
 p {
   font-family: "Lato";
 }
+
+a.link {
+  font-weight: bold;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}

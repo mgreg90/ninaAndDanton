@@ -30,3 +30,11 @@ a#book-reservation {
 a#book-reservation:hover {
   text-decoration: underline;
 }
+
+a.link {
+  font-weight: bold;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
